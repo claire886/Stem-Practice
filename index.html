@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name='description' content='stem words practice & quizzes'>
+	<meta name='keywords' content='stem words, root words, english vocabulary, vocabulary practice'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel='stylesheet' media='(max-width: 640px)' href='small_screen.css'>
+	<title>Stem Words</title>
+</head>
+
+<body>
+
+	 <!--to mkae a screen on top of main page to inactvate main page when click quiz button-->
+		<p id='mainPageScreen'></p>
+
+	<div id="header">
+		<a href='mailto:admin@learning99.com'>
+			<img src='email-icon.png' alt='Link to send email' title='Send an email.' width="30" height="23">
+		</a>
+		<h1>Welcome to Stem Words Quizzes</h1>
+		<p>Click the Quiz buttons to start. Happy Learning!</p>
+	</div>
+
+	<!-- this is where the quizBox will locate, quizBox will be built when user click quiz button through quiz.js file -->
+	<div id="quizBox">
+	</div>
+
+	<div id="container">
+
+		<div>
+			<button type="button" id="quiz_1">Quiz 1</button>
+			<p class="root" id='stemList_1'> </p>
+		</div>
+		<div>
+			<button type="button" id="quiz_2">Quiz 2</button>
+			<p class="root" id='stemList_2'> </p>
+		</div>
+		<div>
+			<button type="button" id="quiz_3">Quiz 3</button>
+			<p class="root" id='stemList_3'> </p>
+		</div>
+		<div>
+			<button type="button" id="quiz_4">Quiz 4</button>
+			<p class="root" id='stemList_4'> </p>
+			  <!--  morph vest bene pond corp dorm pater nov punct ject tion loco
+				 dox amphi magn eu endo phobia ortho put ver matri mega pop sangui -->
+		</div>
+		<div>
+			<button type="button" id="quiz_5">Quiz 5</button>
+			<p class="root" id='stemList_5'></p>
+			  <!-- vita demo stereo ism cogn sur alter astr dyna chrom hyper
+				 luna octa gyro contra geo helio thermo tetra meter scope son dec stell amat -->
+		</div>
+		<div>
+			<button type="button" id="quiz_6">Quiz 6</button>
+			<p class="root" id='stemList_6'></p>
+			  <!-- germ greg mar prim pyro clam pu tang staing liber junct clud se trib dign
+				 luc rupt grat medi soph curr tempor migr trans gamy -->
+		</div>
+		<div>
+			<button type="button" id="quiz_7">Quiz 7</button>
+			<p class="root" id='stemList_7'></p>
+			   <!-- numer fort ostep ornith polis fus ego spir dia acr acro culp derm zo per
+				 pac brev necro urb pugn ecto plasto agog cle il -->
+		</div>
+		<div>
+			<button type="button" id="quiz_8">Quiz 8</button>
+			<p class="root" id='stemList_8'></p>
+		</div>
+		<div>
+			<button type="button" id="quiz_9">Quiz 9</button>
+			<p class="root" id='stemList_9'></p>
+		</div>
+		<div>
+			<button type="button" id="quiz_10">Quiz 10</button>
+			<p class="root" id='stemList_10'></p>
+		</div>
+		<div>
+			<button type="button" id="quiz_11">Quiz 11</button>
+			<p class="root" id='stemList_11'></p>
+		</div>
+		<div>
+			<button type="button" id="quiz_12">Quiz 12</button>
+			<p class="root" id='stemList_12'></p>
+		</div>
+	</div>
+
+	<div>
+		<p id="quizResult">
+		</p>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="stem_lists.js"></script>
+<script src="quiz.js"></script>
+
+</body>
+
+</html>
