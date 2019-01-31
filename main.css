@@ -135,6 +135,12 @@ button:hover {
 	padding-left: .3em;
 }
 
+.wrongAnswer {
+	color: blue;
+	font-weight: lighter;
+	text-decoration: line-through;
+}
+
 #answerButton {
 	background-color: #C75F08;
 	vertical-align: top;

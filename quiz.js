@@ -45,7 +45,8 @@ function quizBoxNfirstQuestion(stemList, listNumber) {
 				correctCount += 1;
 				messageCorrect += ' ' + stemList[listIndex][1] + ' ';
 			} else {
-				messageWrong += ' ' + stemList[listIndex][1] + ': ' + stemList[listIndex][2] + stemList[listIndex][3] + '</p><p>';
+				messageWrong += ' ' + stemList[listIndex][1] + ': ' + stemList[listIndex][2] + stemList[listIndex][3] + 
+								' ' + '<span class="wrongAnswer">' + answer + '</span>' + '</p><p>';
 			}
 		}
 
